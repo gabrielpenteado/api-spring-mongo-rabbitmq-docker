@@ -17,6 +17,12 @@ public class ItemEntity {
 
     }
 
+    public ItemEntity(String product, Integer quantity, BigDecimal price) {
+        this.product = product;
+        this.quantity = quantity;
+        this.price = price;
+    }
+
     public String getProduct() {
         return product;
     }
